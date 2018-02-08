@@ -18,7 +18,7 @@
                 <li class="list-group-item">pimenChat</li>
                 <li class="list-group-item">pimenChat</li>
                 <li class="list-group-item">pimenChat at eros</li>
-                <input type="text" class="form-control" placeholder="Type your message here..." v-model='message' v-on:keyup='send'>
+                <input type="text" class="form-control" placeholder="Type your message here..." v-model='message' @keyup.enter='send'>
             </ul>
         </div>
     </div>
