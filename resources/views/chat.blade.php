@@ -25,6 +25,7 @@
                     <message
                     v-for="value in chat.message" 
                     :key=value.index
+                    color='success'
                     >
                         @{{ value }}
                     </message>
