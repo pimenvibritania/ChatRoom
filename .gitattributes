@@ -2,9 +2,11 @@
 *.js linguist-vendored=true
 *.coffee linguist-vendored=false
 *.css linguist-vendored=false
+*.scss linguist-vendored=false
 *.yml linguist-vendored=false
-*.json linguist-vendored=true
+*.json linguist-vendored=false
 *.rb linguist-vendored=false
 *.html linguist-vendored=false
+*.blade.php linguist-vendored=true
 *.vue linguist-vendored=true
 *.php linguist-vendored=true
