@@ -16,7 +16,9 @@
                 <li class="list-group-item active">Chat Room </li>
                 <message
                 v-for="value in chat.message" 
-                ></message>
+                >
+                    @{{ value }}
+                </message>
                 <input type="text" class="form-control" placeholder="Type your message here..." v-model='message' @keyup.enter='send'>
             </ul>
         </div>

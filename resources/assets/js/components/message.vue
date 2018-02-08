@@ -1,6 +1,6 @@
 <template>
     
-    <li class="list-group-item">pimenChat</li>
+    <li class="list-group-item"><slot></slot></li>
 
 </template>
 
