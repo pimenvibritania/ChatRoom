@@ -20,13 +20,15 @@ Vue.component('message', require('./components/message.vue'));
 const app = new Vue({
     el: '#app' , 
     data:{
-        message:''
+        message:'',
+        chat:{
+            message:[]
+        }
     },
     methods:{
         send(){
             if (this.message.length != 0) {
-                console.log(this.message);
-
+                this.chat.message.push(this.message)
             }
         }
     }
