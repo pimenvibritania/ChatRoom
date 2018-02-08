@@ -1,8 +1,10 @@
-
-*.blade.php linguist-vendored
-*.vue linguist-vendored
-*.js linguist-vendored
-
-
-
-CHANGELOG.md export-ignore
+* linguist-vendored
+*.js linguist-vendored=true
+*.coffee linguist-vendored=false
+*.css linguist-vendored=false
+*.yml linguist-vendored=false
+*.json linguist-vendored=true
+*.rb linguist-vendored=false
+*.html linguist-vendored=false
+*.vue linguist-vendored=true
+*.php linguist-vendored=true
